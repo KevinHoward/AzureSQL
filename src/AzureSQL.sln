@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSQL.Tests", "..\tests\AzureSQL.Tests.csproj", "{C9146039-C337-4243-8320-C86B1CAAE077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSQL", "AzureSQL\AzureSQL.csproj", "{55A01651-BFFD-4CA6-9EA4-92063194CCD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSQL.Pcl", "AzureSQL.Pcl\AzureSQL.Pcl.csproj", "{E5E75AB7-EF52-4153-8771-648DCC3B6B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{78E6F219-7917-4690-B3D5-F6CCDB982A72}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9146039-C337-4243-8320-C86B1CAAE077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9146039-C337-4243-8320-C86B1CAAE077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9146039-C337-4243-8320-C86B1CAAE077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9146039-C337-4243-8320-C86B1CAAE077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A01651-BFFD-4CA6-9EA4-92063194CCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A01651-BFFD-4CA6-9EA4-92063194CCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A01651-BFFD-4CA6-9EA4-92063194CCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A01651-BFFD-4CA6-9EA4-92063194CCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E75AB7-EF52-4153-8771-648DCC3B6B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E75AB7-EF52-4153-8771-648DCC3B6B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E75AB7-EF52-4153-8771-648DCC3B6B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E75AB7-EF52-4153-8771-648DCC3B6B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
